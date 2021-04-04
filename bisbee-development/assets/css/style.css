@@ -1,6 +1,6 @@
 /* -----color palette-----
 Heading- #2A4C00,
-text- #131800
+link- #131800
 link visitied- #D9D8DE
 link Hover- #C5BEAB, 
 link active- #B5AB7B */
@@ -39,6 +39,10 @@ header.primary nav ul{
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
+}
+
+header.primary nav ul a:link{
+    color:#fff;
 }
 
 header.primary nav ul a:visited{
@@ -87,6 +91,10 @@ h1,h2{
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
+}
+
+.navigation ul a:link{
+    color:#fff;
 }
 
 .navigation ul a:visited{
