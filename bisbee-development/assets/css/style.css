@@ -1,0 +1,110 @@
+/* -----color palette-----
+Heading- #2A4C00,
+text- #131800
+link visitied- #D9D8DE
+link Hover- #C5BEAB, 
+link active- #B5AB7B */
+
+
+
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	background-image:url('../img/bg-tile.jpg');
+	background-repeat:repeat-x;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+header.primary nav{
+    width:80vw;
+    margin:20px auto;
+    text-shadow:0px 0px;
+}
+
+header.primary nav ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+header.primary nav ul a:visited{
+    color:#D9D8DE;
+}
+
+header.primary nav ul a:active{
+    color:#B5AB7B;
+}
+
+header.primary nav ul a:hover{
+    color:#C5BEAB;
+}
+
+
+header.primary nav ul li{
+    list-style-type:none;
+    background-color:#2A4C00;
+    padding:8px 16px;
+    border-radius:20px 5px;
+}
+
+h1,h2{
+    color:#2A4C00;
+    padding:5px;
+}
+
+.selfportrait{
+    border:1px solid #000000;
+    padding:20px;
+    margin:10px 20px 0;
+}
+
+#content {
+	margin: 75px;
+}
+
+.navigation{
+    width:80vw;
+    margin:20px auto;
+    text-shadow:0px 0px;
+}
+
+.navigation ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.navigation ul a:visited{
+    color:#D9D8DE;
+}
+
+.navigation ul a:active{
+    color:#B5AB7B;
+}
+
+.navigation ul a:hover{
+    color:#C5BEAB;
+}
+
+
+.navigation ul li{
+    list-style-type:none;
+    background-color:#2A4C00;
+    padding:8px 16px;
+    border-radius:20px 5px;
+}
